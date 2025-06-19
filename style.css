@@ -3,3 +3,19 @@ img {
   height: auto;
 }
 
+.img-reducida {
+  width: 70%;
+  height: auto;
+}
+
+#recomendados {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+
+#recomendados article {
+  flex: 1;
+  max-width: 50%; 
+  text-align: center;
+}
